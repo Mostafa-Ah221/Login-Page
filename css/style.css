@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+input::placeholder{
+    color: #ddd!important;
+}
+body {
+    background-color: #24353f !important;
+    font-family: 'Titillium Web', sans-serif !important;
+  }
+
+.box {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1{
+    color: #17a2b8 !important;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+.sec-inputs {
+    display: flex;
+    flex-direction: column;
+
+}
+input {
+    width: 100%;
+    background-color: transparent !important;
+    padding: 13px !important;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    font-size: 1.1rem !important;
+}
+.last {
+    font-size: 1.3rem;
+}
+#incorrect {
+    color: tomato;
+    font-size: 1.2rem;
+}
+.btn{
+    font-size:20px !important;
+}
+.btn:hover{
+    color: #fff !important;
+}
+
+/* start style welcome page */
+.container-2{
+    width: 80%;
+    margin: auto;
+}
+nav{
+    height: 70px;  
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+nav .nav-bar{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+nav .logoSec {
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+#logout {
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    outline: none;
+    color: #ccc;
+    font-size: 20px;
+    border: 2px solid rgb(177, 151, 8);
+    cursor:pointer;
+    transition: 0.5s;
+}
+#logout:hover{
+    background-color: rgb(129, 129, 35);
+    color: #fff;
+}
+#message {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+}
+
+#signUp {
+    text-decoration: none;
+    padding-bottom: 2px;
+    transition: 0.5s !important;
+}
+#signUp:hover {
+    border-bottom: 1px solid #fff;
+}
+/* end style welcome page */
